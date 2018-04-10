@@ -1,0 +1,17 @@
+uuid: f000ece3-0642-4f17-9b04-4b686f213e79
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: G4BTzCIHC97RIcYScjleG1V4KdZSurN6v8Ss_qzEDEg
+name: default_m
+label: 'default m'
+effects:
+  2e9c8c62-f853-494c-8604-4a68b8a2d149:
+    uuid: 2e9c8c62-f853-494c-8604-4a68b8a2d149
+    id: image_scale
+    weight: 1
+    data:
+      width: 960
+      height: null
+      upscale: false

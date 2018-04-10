@@ -1,0 +1,15 @@
+uuid: bb636ea4-9301-4b39-a3ae-fffb2b84deac
+name: 'Site name'
+mail: info@fischer-architekten.ch
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

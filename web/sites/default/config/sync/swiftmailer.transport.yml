@@ -1,0 +1,14 @@
+transport: smtp
+smtp_host: smtp.sendgrid.net
+smtp_port: 587
+smtp_encryption: tls
+sendmail_path: /usr/sbin/sendmail
+sendmail_mode: bs
+spool_directory: ''
+_core:
+  default_config_hash: 0SeYZshzgoabDrbz-junYqeQOQ9BypPv2gaFcnqKy0M
+smtp_credential_provider: swiftmailer
+smtp_credentials:
+  swiftmailer:
+    username: apikey
+    password: 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

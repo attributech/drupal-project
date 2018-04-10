@@ -1,0 +1,33 @@
+uuid: b33f8994-834f-4d6d-9606-6ce2cb68494c
+langcode: de
+status: true
+dependencies:
+  config:
+    - image.style.default_l
+    - image.style.default_m
+    - image.style.default_s
+    - image.style.default_xl
+    - image.style.default_xs
+    - image.style.default_xxl
+    - image.style.default_xxxl
+_core:
+  default_config_hash: slrsiMIgYVk8uqC9fPNkSsJN6Kddyh4gDxNRl-BeYwk
+id: default
+label: Default
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: auto
+      sizes_image_styles:
+        - default_l
+        - default_m
+        - default_s
+        - default_xl
+        - default_xs
+        - default_xxl
+        - default_xxxl
+breakpoint_group: responsive_image
+fallback_image_style: default_xxxl

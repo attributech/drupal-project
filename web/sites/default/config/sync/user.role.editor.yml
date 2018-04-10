@@ -1,0 +1,28 @@
+uuid: 2605b12b-3bd8-424c-885e-2ea3dff11842
+langcode: de
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 2
+is_admin: null
+permissions:
+  - 'create content translations'
+  - 'delete content translations'
+  - 'update content translations'
+  - 'translate any entity'
+  - 'access files overview'
+  - 'use text format html'
+  - 'use text format raw_html'
+  - 'access content overview'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'create url aliases'
+  - 'administer redirects'
+  - 'administer menu'
+  - 'access administration pages'
+  - 'view the administration theme'
+  - 'administer taxonomy'
+  - 'access toolbar'
+  - 'use text format filtered_html'
+  - 'view files'
