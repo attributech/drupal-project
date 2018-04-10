@@ -1,10 +1,10 @@
-sitegroup: SITEGROUP
+sitegroup: DRUPAL-PROJECT-SITEGROUP
 deploy_tasks:
   development:
     before_deploy:
       - composer install
-      - cd web/themes/THEMENAME && yarn install --pure-lockfile
-      - cd web/themes/THEMENAME && yarn run gulp
+      - cd web/themes/contrib/starterkit && yarn install --pure-lockfile
+      - cd web/themes/contrib/starterkit && yarn run gulp
     after_deploy:
       - cd web && drush -y updb --cache-clear=0
       - cd web && drush -y cim
@@ -12,8 +12,8 @@ deploy_tasks:
   production:
     before_deploy:
       - composer install
-      - cd web/themes/THEMENAME && yarn yarn install --pure-lockfile
-      - cd web/themes/THEMENAME && yarn run gulp
+      - cd web/themes/contrib/starterkit && yarn yarn install --pure-lockfile
+      - cd web/themes/contrib/starterkit && yarn run gulp
     after_deploy:
       - cd web && drush -y updb --cache-clear=0
       - cd web && drush -y cr

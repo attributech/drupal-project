@@ -5,7 +5,7 @@ services:
     # Choose your URL and hostname for this Docker Container
     # NEEDS to end with '.docker.amazee.io' !
     # DO NOT remove the '&hostname'
-    hostname: &hostname DOMAIN.docker.amazee.io
+    hostname: &hostname DRUPAL-PROJECT-DOMAIN.docker.amazee.io
     environment:
       # If you use https://github.com/drupal-composer/drupal-project or something similar,
       # the Drupal root is not inside the Repository root, you can define in which folder
@@ -20,7 +20,7 @@ services:
       APC: 1
 
       # Set the production URL to make stage_file_proxy work
-      AMAZEEIO_PRODUCTION_URL: 'DOMAIN'
+      AMAZEEIO_PRODUCTION_URL: 'DRUPAL-PROJECT-DOMAIN'
 
 
 ################################################
