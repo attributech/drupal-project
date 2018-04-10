@@ -1,0 +1,24 @@
+sitegroup: SITEGROUP
+deploy_tasks:
+  development:
+    before_deploy:
+      - composer install
+      - cd web/themes/THEMENAME && yarn install --pure-lockfile
+      - cd web/themes/THEMENAME && yarn run gulp
+    after_deploy:
+      - cd web && drush -y updb --cache-clear=0
+      - cd web && drush -y cim
+      - cd web && drush -y cr
+  production:
+    before_deploy:
+      - composer install
+      - cd web/themes/THEMENAME && yarn yarn install --pure-lockfile
+      - cd web/themes/THEMENAME && yarn run gulp
+    after_deploy:
+      - cd web && drush -y updb --cache-clear=0
+      - cd web && drush -y cr
+
+shared:
+  production:
+    - src: files
+      dst: web/sites/default/files
