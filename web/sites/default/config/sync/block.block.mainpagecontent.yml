@@ -1,0 +1,20 @@
+uuid: f01252e4-85c6-4b80-9049-ffe4b208c16b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - starterkit
+id: mainpagecontent
+theme: starterkit
+region: content
+weight: 2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

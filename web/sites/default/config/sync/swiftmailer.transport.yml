@@ -11,4 +11,4 @@ smtp_credential_provider: swiftmailer
 smtp_credentials:
   swiftmailer:
     username: apikey
-    password: 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
+    password: null

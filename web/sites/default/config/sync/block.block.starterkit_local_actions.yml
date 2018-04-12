@@ -1,0 +1,20 @@
+uuid: cfc835c9-ca7e-4c7f-995a-931f7bb4887f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - starterkit
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: starterkit_local_actions
+theme: starterkit
+region: content
+weight: 1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
