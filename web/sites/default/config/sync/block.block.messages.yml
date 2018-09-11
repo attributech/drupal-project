@@ -1,0 +1,20 @@
+uuid: 7e03c6c6-cd96-40f3-a9ca-3fc25eacc7ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - starterkit
+id: messages
+theme: starterkit
+region: content
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,27 +1,32 @@
-uuid: b74fed16-ec6e-4ca7-bb37-79b67e3e6808
+uuid: 652b20a3-6f10-40fe-be3b-22683fa5c90c
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.video.field_media_video_embed_field
+    - field.field.media.video.field_media_video_file
     - media.type.video
   module:
-    - video_embed_field
+    - file
+_core:
+  default_config_hash: dQR0mYK5NNg27OigHrxZrHSsnwewnNZcPJKjKIO0cpA
 id: media.video.default
 targetEntityType: media
 bundle: video
 mode: default
 content:
-  field_media_video_embed_field:
-    label: hidden
-    settings:
-      width: 854
-      height: 480
-      autoplay: false
-      responsive: false
-    third_party_settings: {  }
-    type: video_embed_field_video
+  field_media_video_file:
+    type: file_video
     weight: 0
+    label: visually_hidden
+    settings:
+      muted: false
+      width: 640
+      height: 480
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+    third_party_settings: {  }
     region: content
 hidden:
   created: true

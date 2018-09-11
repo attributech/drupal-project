@@ -1,15 +1,15 @@
-uuid: e57c3f53-deed-4a51-8627-775740d7a635
+uuid: 4f4819a6-91f7-42c7-af15-49b4d8019157
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - seven
+    - starterkit
 id: breadcrumbs
-theme: seven
-region: breadcrumb
-weight: null
+theme: starterkit
+region: content
+weight: 0
 provider: null
 plugin: system_breadcrumb_block
 settings:

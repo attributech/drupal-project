@@ -1,15 +1,14 @@
-uuid: bb636ea4-9301-4b39-a3ae-fffb2b84deac
-name: 'Site name'
-mail: info@fischer-architekten.ch
+uuid: edc61de7-04ff-43b0-8cbd-cc26ef7c1ac8
+name: 'Drupal 8'
+mail: admin@example.org
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
-mail_notification: ''

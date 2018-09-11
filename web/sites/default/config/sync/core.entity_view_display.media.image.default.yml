@@ -1,28 +1,27 @@
-uuid: 90ab1f42-f6ec-408a-a0cf-0a13620b7f85
+uuid: 774af95b-c4db-4bd7-9ff1-1a15872577d2
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
     - media.type.image
-    - responsive_image.styles.default
   module:
-    - responsive_image
+    - image
 _core:
-  default_config_hash: TBF8TFPs1ZzUTKej-REINnOUP2yXXSJmXdFEUoaWeTA
+  default_config_hash: jOwnt_yq6AKAfqU6f0xKnxEkFQ2eTPJWxrk3WMLbL68
 id: media.image.default
 targetEntityType: media
 bundle: image
 mode: default
 content:
   field_media_image:
-    label: hidden
+    label: visually_hidden
     settings:
-      responsive_image_style: default
-      image_link: ''
+      image_style: ''
+      image_link: file
     third_party_settings: {  }
-    type: responsive_image
-    weight: 0
+    type: image
+    weight: 1
     region: content
 hidden:
   created: true
