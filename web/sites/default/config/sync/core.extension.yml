@@ -37,6 +37,7 @@ module:
   path: 0
   rdf: 0
   redirect: 0
+  redirect_404: 0
   responsive_image: 0
   shortcut: 0
   swiftmailer: 0
