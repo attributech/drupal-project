@@ -1,6 +1,6 @@
 uuid: edc61de7-04ff-43b0-8cbd-cc26ef7c1ac8
-name: 'Drupal 8'
-mail: admin@example.org
+name: 'DRUPAL-PROJECT-DOMAIN'
+mail: info@DRUPAL-PROJECT-DOMAIN
 slogan: ''
 page:
   403: ''
