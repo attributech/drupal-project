@@ -36,6 +36,7 @@
         "drupal/editor_file": "^1.2",
         "drupal/entity_browser": "^2.0",
         "drupal/google_analytics": "^2.2",
+        "drupal/hreflang": "^1.1",
         "drupal/inline_entity_form": "^1.0@beta",
         "drupal/linkit": "5.x",
         "drupal/mailsystem": "^4.1",
