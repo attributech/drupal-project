@@ -22,8 +22,8 @@
     "require": {
         "attributech/starterkit": "dev-master",
         "composer/installers": "^1.2",
-        "cweagans/composer-patches": "^1.6",
-        "drupal-composer/drupal-scaffold": "^2.2",
+        "cweagans/composer-patches": "^1.6.5",
+        "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/admin_toolbar": "^1.23",
         "drupal/components": "^1.0",
         "drupal/config_installer": "^1.7",
@@ -66,6 +66,7 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
+        "webflo/drupal-core-require-dev": "^8.6.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -82,7 +83,6 @@
         "files": ["load.environment.php"]
     },
     "scripts": {
-        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "pre-install-cmd": [
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
@@ -101,6 +101,9 @@
             "bower-asset",
             "npm-asset"
         ],
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": [
@@ -111,7 +114,13 @@
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/contrib/{$name}": ["type:drupal-drush"]
+            "drush/Commands/{$name}": ["type:drupal-drush"]
+        },
+        "drupal-scaffold": {
+            "initial": {
+                ".editorconfig": "../.editorconfig",
+                ".gitattributes": "../.gitattributes"
+            }
         }
     }
 }
