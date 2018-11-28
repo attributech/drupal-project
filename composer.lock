@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8c3e95713f835ef5c220c90a373d007",
+    "content-hash": "7de3c32885787ba9ee3c80a4f7b066fe",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5017,6 +5017,20 @@
             "time": "2018-10-10T09:24:14+00:00"
         },
         {
+            "name": "npm-asset/sortablejs",
+            "version": "1.7.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/sortablejs/-/sortablejs-1.7.0.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "oomphinc/composer-installers-extender",
             "version": "v1.1.2",
             "source": {
@@ -8740,6 +8754,11 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webflo/drupal-core-require-dev.git",
+                "reference": "128ed1111501ff14f5acadc50f214b1e47d591ad"
+            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
