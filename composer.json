@@ -51,6 +51,7 @@
         "drupal/viewfield": "^3.0@alpha",
         "drupal/xmlsitemap": "^1.0@alpha",
         "drush/drush": "~8.0",
+        "npm-asset/sortablejs": "^1.7",
         "oomphinc/composer-installers-extender": "^1.1",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-core-require-dev": "^8.6",
