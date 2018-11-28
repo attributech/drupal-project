@@ -113,6 +113,11 @@
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
             }
+        },
+        "patches": {
+            "drupal/pargraphs": {
+                "#2921214: Allow different folder names for sortablejs": "https://www.drupal.org/files/issues/2018-11-28/2921214-sortable-fix-path-8.patch"
+            }
         }
     }
 }
